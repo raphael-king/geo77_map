@@ -20,6 +20,8 @@ crossorigin=""></script>
 	
 	<script>
 	var mymap = L.map('mapid').setView([0, 0]).setZoom(1);
+	var OSM_background =
+	L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png').addTo(mymap);
 	</script>
 
 </body>
